@@ -4,8 +4,11 @@ Datasets and Pytorch code for [UniTS: Short-Time Fourier Inspired Neural Network
 #### Prerequisite
 
 > PyTorch >= 1.8.0
+>
 > numpy
+>
 > scikit-learn
+>
 > pytorch-complex
 
 #### How to run
