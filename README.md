@@ -1,7 +1,7 @@
 # UniTS-Sensory-Time-Series-Classification
 Datasets and Pytorch code for [UniTS: Short-Time Fourier Inspired Neural Networks for Sensory Time Series Classification](https://dl.acm.org/doi/10.1145/3485730.3485942), in The 19th ACM Conference on Embedded Networked Sensor Systems (SenSys 2021).
 
-### Prerequisite
+## Prerequisite
 
 > PyTorch >= 1.8.0
 >
@@ -11,18 +11,18 @@ Datasets and Pytorch code for [UniTS: Short-Time Fourier Inspired Neural Network
 >
 > pytorch-complex
 
-### How to run
+## How to run
 
 1. Run main.py for UniTS and the following baseline models ([ResNet](https://arxiv.org/abs/1611.06455), [MaCNN](https://dl.acm.org/doi/10.1145/3161174), [RFNet-base](https://dl.acm.org/doi/10.1145/3384419.3430735), [THAT](https://ojs.aaai.org/index.php/AAAI/article/view/16103), [LaxCat](https://arxiv.org/abs/2011.11631))
 2. Run complex_main.py for model [STFNets](https://arxiv.org/abs/1902.07849).
 
-### Datasets
+## Datasets
 
-#### Processed:
+### Processed:
 
 https://drive.google.com/file/d/1aPb-iy6ic-bcg-azXVQ2_2uegn0oQc_j/view?usp=sharing
 
-#### Raw:
+### Raw:
 
 Motion:
 
@@ -40,13 +40,13 @@ KETI:
 
 https://github.com/Shuheng-Li/Relational-Inference/tree/master/KETI_oneweek
 
-### Notes
+## Notes
 
 Code will use cuda by default. You may tune model hyperparameter for better results.
 
-### Citations
+## Citations
 
-Please cite the following papers if you use this repository in your research work:
+Please cite the following paper if you use this repository in your research work:
 
 ```
 @inproceedings{10.1145/3485730.3485942,
