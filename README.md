@@ -46,7 +46,7 @@ Code will use cuda by default. You may tune model hyperparameter for better resu
 
 ## Citations
 
-Please cite the following papers if you use this repository in your research work:
+Please cite the following paper if you use this repository in your research work:
 
 ```
 @inproceedings{10.1145/3485730.3485942,
